@@ -16,6 +16,13 @@ export default function () {
       <HoverPic bw={images.gal7} c={images.butt}/>
       <HoverPic bw={images.gal8} c={images.butt}/>
       <HoverPic bw={images.gal9} c={images.butt}/>
+      <HoverPic bw={images.gal9} c={images.butt}/>
+      <HoverPic bw={images.gal9} c={images.butt}/>
+      <div className="filler"></div>
+      <div className="filler"></div>
+      <div className="filler"></div>
+      <div className="filler"></div>
+      <div className="filler"></div>
       <div className="filler"></div>
       <div className="filler"></div>
       <div className="filler"></div>

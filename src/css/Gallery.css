@@ -1,12 +1,11 @@
 .gallery {
   display: flex;
-  width: 100%;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .filler {
     height: 0px;
-    margin: 2%;
-    flex: 1 0 20%;
+    margin: 0 2%;
+    flex: 1 0 200px;
 }
