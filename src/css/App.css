@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Raleway';
+  src: url('./raleway.thin.ttf') format('truetype');
+}
+
+.App {
+  text-align: center;
+}
+
+img {
+  height: 40px;
+}
+
+.App-header {
+  background: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+
+}
+
+.App-title {
+  font-family: 'Raleway';
+  font-weight: 100;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  text-transform: none;
+  color: #fff;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Gallery-container {
+  margin: 5% 10% 0 10%;
+}
