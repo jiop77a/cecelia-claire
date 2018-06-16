@@ -1,7 +1,7 @@
 .pic {
   position: relative;
-  margin: 2%;
-  flex: 1 0 200px;
+  margin: 10px;
+  flex: 1 0 220px;
 }
 
 .pic:hover .c {
