@@ -1,5 +1,5 @@
 import React from 'react';
-import {images} from '../imageIndex.js'
+import {images} from '../imageIndex.js';
 import HoverPic from './HoverPic.js';
 import '../css/Gallery.css';
 
@@ -7,7 +7,7 @@ import '../css/Gallery.css';
 export default function () {
   return (
     <div className='gallery'>
-      <HoverPic bw={images.gal1} c={images.butt}/>
+      <HoverPic bw={images.bw1} c={images.color1}/>
       <HoverPic bw={images.gal2} c={images.butt}/>
       <HoverPic bw={images.gal3} c={images.butt}/>
       <HoverPic bw={images.gal4} c={images.butt}/>

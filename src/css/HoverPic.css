@@ -2,6 +2,7 @@
   position: relative;
   margin: 10px;
   flex: 1 0 300px;
+  min-height: 100px;
 }
 
 .pic:hover .c {
@@ -11,6 +12,7 @@
 .bw, .c {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .bw {

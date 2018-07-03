@@ -1,6 +1,8 @@
 export const images = {
   background: "https://res.cloudinary.com/dol1mm8bd/image/upload/v1529117480/Cecelia/1528657771263_sumzuu.jpg",
   logo: "https://res.cloudinary.com/dol1mm8bd/image/upload/v1529117346/Cecelia/1529114506314_ysryfp.jpg",
+  color1: "https://res.cloudinary.com/dh4pekfho/image/upload/v1530454630/CeceliaClaire/EllaSophie_FashionPhotography_BolinasSwim_best-059.jpg",
+  bw1: "https://res.cloudinary.com/dh4pekfho/image/upload/v1530454584/CeceliaClaire/EllaSophie_FashionPhotography_BolinasSwim_best-059_2.jpg",
   gal1: "https://res.cloudinary.com/dol1mm8bd/image/upload/v1529117472/Cecelia/gal1_g67fgo.jpg",
   gal2: "https://res.cloudinary.com/dol1mm8bd/image/upload/v1529117464/Cecelia/gal2_rmawgl.jpg",
   gal3: "https://res.cloudinary.com/dol1mm8bd/image/upload/v1529117452/Cecelia/gal3_jrxat3.jpg",
