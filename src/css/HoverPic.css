@@ -4,14 +4,20 @@
   flex: 1 0 300px;
 }
 
-.pic:hover .c {
+.l-pic {
+  position: relative;
+  margin: 10px;
+  flex: 1 0 450px;
+}
+
+.pic:hover .c, .l-pic:hover .c {
   opacity: 1;
 }
 
 .bw, .c {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
 }
 
 .bw {
