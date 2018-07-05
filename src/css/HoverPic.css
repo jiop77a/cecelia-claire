@@ -2,7 +2,6 @@
   position: relative;
   margin: 10px;
   flex: 1 0 300px;
-  min-height: 100px;
 }
 
 .pic:hover .c {

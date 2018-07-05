@@ -8,16 +8,9 @@ export default function () {
   return (
     <div className='gallery'>
       <HoverPic bw={images.bw1} c={images.color1}/>
-      <HoverPic bw={images.gal2} c={images.butt}/>
-      <HoverPic bw={images.gal3} c={images.butt}/>
-      <HoverPic bw={images.gal4} c={images.butt}/>
-      <HoverPic bw={images.gal5} c={images.butt}/>
-      <HoverPic bw={images.gal6} c={images.butt}/>
-      <HoverPic bw={images.gal7} c={images.butt}/>
-      <HoverPic bw={images.gal8} c={images.butt}/>
-      <HoverPic bw={images.gal9} c={images.butt}/>
-      <HoverPic bw={images.gal9} c={images.butt}/>
-      <HoverPic bw={images.gal9} c={images.butt}/>
+      <HoverPic bw={images.bw2} c={images.color2}/>
+      <HoverPic bw={images.bw3} c={images.color3}/>
+      <HoverPic bw={images.bw4} c={images.color4}/>
       <div className="filler"></div>
       <div className="filler"></div>
       <div className="filler"></div>
