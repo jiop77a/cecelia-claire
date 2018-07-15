@@ -1,16 +1,19 @@
 .pic {
   position: relative;
   margin: 10px;
-  flex: 1 0 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
-.l-pic {
-  position: relative;
-  margin: 10px;
-  flex: 1 0 450px;
+.pic-2-3 {
+  flex-basis: 300px;
 }
 
-.pic:hover .c, .l-pic:hover .c {
+.pic-3-2 {
+  flex-basis: 450px;
+}
+
+.pic:hover .c {
   opacity: 1;
 }
 
