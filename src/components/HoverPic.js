@@ -1,11 +1,11 @@
 import React from 'react';
 import '../css/HoverPic.css';
 
-export default function ({bw, c, ratio}) {
+export default function ({image}) {
   return (
-    <div className={`pic pic-${ratio}`}>
-      <img className="bw" src={bw}></img>
-      <img className="c" src={c}></img>
+    <div className="pic">
+      <img className="bw" src={image.bw}></img>
+      <img className="c" src={image.color}></img>
     </div>
   );
 }

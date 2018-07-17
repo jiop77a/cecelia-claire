@@ -1,14 +1,7 @@
 .gallery {
   margin-top: 5%;
-  margin-left: calc(10vw - 40px);
-  box-sizing: border-box;
+  margin-left: calc(6vw - 40px);
 }
-
-/* .filler {
-    height: 0px;
-    margin: 0 10px;
-    flex: 1 0 300px;
-} */
 
 @media (max-width: 1200px) {
   .gallery {
@@ -16,9 +9,9 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .gallery {
-    margin-left: calc(10vw - 20px);
+    margin-left: calc(5vw - 20px);
   }
 }
 
