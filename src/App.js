@@ -11,9 +11,9 @@ class App extends Component {
           <img src={images.logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Pattern Gallery</h1>
         </header>
-        <div className='Gallery-container'>
-          <Gallery/>
-        </div>
+        <Gallery/>
+        {/* <div className='Gallery-container'>
+        </div> */}
       </div>
     );
   }

@@ -1,38 +1,63 @@
 .pic {
   position: relative;
   margin: 10px;
-  flex-grow: 1;
-  flex-shrink: 0;
+  width: 20vw;
+  /* flex-grow: 1;
+  flex-shrink: 0; */
 }
 
-.pic-2-3 {
-  flex-basis: 300px;
+@media (max-width: 1200px) {
+  .pic {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .pic {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 514px) {
+  .pic {
+    width: 90vw;
+  }
+}
+
+
+/* .pic-2-3 {
+  width: 300px;
 }
 
 .pic-3-2 {
-  flex-basis: 450px;
+  width: 450px;
 }
 
 .pic-1-1 {
-  flex-basis: 150px;
+  width: 150px;
 }
 
 .pic-3-4 {
-  flex-basis: 200px;
+  width: 200px;
 }
 
 .pic-7-8 {
-  flex-basis: 150px;
-}
+  width: 150px;
+} */
+
 
 .pic:hover .c {
   opacity: 1;
 }
 
+/* .l-pic:hover .c {
+  opacity: 1;
+} */
+
 .bw, .c {
   height: 100%;
   width: 100%;
-  object-fit: scale-down;
+  /* object-fit: scale-down; */
 }
 
 .bw {
@@ -48,3 +73,33 @@
   opacity: 0;
   transition: .5s ease;
 }
+
+/* @media (max-width: 550px) {
+  .l-pic {
+    width: 400px;
+  }
+
+  .pic {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .l-pic {
+    width: 300px;
+  }
+
+  .pic {
+    width: 300px;
+  }
+} */
+
+/* @media (max-width: 750px) {
+  .l-pic {
+    width: calc(100vw);
+  }
+
+  .pic {
+    width: 400px;
+  }
+} */
