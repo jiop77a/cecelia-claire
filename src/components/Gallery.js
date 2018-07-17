@@ -2,22 +2,22 @@ import React from 'react';
 import {images} from '../imageIndex.js';
 import HoverPic from './HoverPic.js';
 import '../css/Gallery.css';
-import Masonry from 'react-mason';
+import Masonry from 'react-masonry-component';
 
 
 class Gallery extends React.Component {
 
   state = {width: 0}
 
-  componentDidMount() {
-    window.addEventListener('resize', this.handleResize);
-  }
-
-  handleResize = () => {
-    console.log(window.innerWidth);
-    let width = window.innerWidth;
-    this.setState({width});
-  }
+  // componentDidMount() {
+  //   window.addEventListener('resize', this.handleResize);
+  // }
+  //
+  // handleResize = () => {
+  //   console.log(window.innerWidth);
+  //   let width = window.innerWidth;
+  //   this.setState({width});
+  // }
 
   render() {
     let {width} = this.state;
@@ -27,8 +27,9 @@ class Gallery extends React.Component {
     };
 
     return (
-      <div className='gallery' style={{marginLeft: ''}}>
-        <Masonry>
+        <Masonry
+          className={"gallery"}
+          options={{transitionDuration: 200}}>
           <HoverPic
             bw={images.bw3}
             c={images.color3}
@@ -94,7 +95,6 @@ class Gallery extends React.Component {
             ratio={"3-4"}
           />
         </Masonry>
-      </div>
     );
   }
 }

@@ -1,6 +1,7 @@
 .gallery {
   margin-top: 5%;
-  margin-left: 20px;
+  margin-left: calc(10vw - 40px);
+  box-sizing: border-box;
 }
 
 /* .filler {
@@ -8,3 +9,21 @@
     margin: 0 10px;
     flex: 1 0 300px;
 } */
+
+@media (max-width: 1200px) {
+  .gallery {
+    margin-left: calc(5vw - 30px);
+  }
+}
+
+@media (max-width: 700px) {
+  .gallery {
+    margin-left: calc(10vw - 20px);
+  }
+}
+
+@media (max-width: 514px) {
+  .gallery {
+    margin-left: calc(5vw - 10px);
+  }
+}
