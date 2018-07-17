@@ -3,7 +3,7 @@ import '../css/HoverPic.css';
 
 export default function ({bw, c, ratio}) {
   return (
-    <div className={`pic ${ratio}`}>
+    <div className={`pic pic-${ratio}`}>
       <img className="bw" src={bw}></img>
       <img className="c" src={c}></img>
     </div>

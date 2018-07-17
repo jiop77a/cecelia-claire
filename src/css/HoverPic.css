@@ -13,6 +13,18 @@
   flex-basis: 450px;
 }
 
+.pic-1-1 {
+  flex-basis: 150px;
+}
+
+.pic-3-4 {
+  flex-basis: 300px;
+}
+
+.pic-7-8 {
+  flex-basis: 150px;
+}
+
 .pic:hover .c {
   opacity: 1;
 }
