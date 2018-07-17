@@ -30,9 +30,6 @@ img {
   color: #fff;
 }
 
-.Gallery-container {
-  margin: 5% 10% 0 10%;
-}
 
 @media (max-width: 500px) {
   .App-title {
